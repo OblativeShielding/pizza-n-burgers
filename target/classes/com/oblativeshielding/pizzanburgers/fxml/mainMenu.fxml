@@ -10,8 +10,8 @@
 <VBox spacing="20.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
         fx:controller="com.oblativeshielding.pizzanburgers.controllers.MainMenu">
     <children>
-        <Button fx:id="burgerButton" text="Add a Burger" onAction="#newBurger" />
-        <Button fx:id="pizzaButton" text="Add a Pizza" onAction="#newPizza" />
+        <Button fx:id="burgerButton" text="Add a Burger" onAction="#startBurger" />
+        <Button fx:id="pizzaButton" text="Add a Pizza" onAction="#startPizza" />
         <Button fx:id="clearButton" text="Clear Orders" onAction="#clear" />
         <Button fx:id="exitButton" text="Exit" onAction="#exit" />
     </children>

@@ -14,7 +14,7 @@
       <fx:include source="mainMenu.fxml" fx:id="mainMenu" />
       <ScrollPane fx:id="receiptScroll" fitToWidth="true" fitToHeight="true">
          <content>
-            <TextArea fx:id="receiptArea" prefWidth="300" editable="false"/>
+            <TextArea fx:id="receiptArea" prefWidth="320" editable="false"/>
          </content>
       </ScrollPane>
    </children>
